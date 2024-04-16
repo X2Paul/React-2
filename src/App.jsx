@@ -5,8 +5,8 @@ const App = () => {
     <div>
     <h1>Hello_world!!!</h1>
 
-    <Button />
-    <Button />
+    <Button text="Submit button" onClick={() => alert('Submit button clicked')} />
+    <Button text="Reset button" onClick={() => alert('Reset button clicked')} />
     </div>
   )
 }
