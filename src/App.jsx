@@ -1,12 +1,12 @@
-import Button from './components/Button.jsx'
+import StatefulComponent from'./components/stateful.jsx';
+import StatelessComponent from'./components/stateless.jsx';
 
 const App = () => {
   return (
     <div>
-    <h1>Hello_world!!!</h1>
-
-    <Button text="Submit button" onClick={() => alert('Submit button clicked')} />
-    <Button text="Reset button" onClick={() => alert('Reset button clicked')} />
+      <StatefulComponent />
+      <hr />
+      <StatelessComponent message="Hello World!" />
     </div>
   )
 }
